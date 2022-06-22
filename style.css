@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background-color: #222;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+/* head */
+.head {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.head h1 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.head p {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/* head */
+/* input */
+input {
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+  margin-bottom: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: #111;
+  border-radius: 5px;
+  
+}
+input:focus {
+  transform: scale(1.1);
+}
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.price input {
+  margin-right: 10px;
+  width: 20%;
+}
+.price #total{
+  color: white;
+  background-color: red;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.price #total::before{
+content: "total: ";
+}
+.done {
+  background-color: rgb(36, 148, 36) !important;
+}
+button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(71, 0, 73);
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(97, 4, 100);
+  letter-spacing: 1px;
+}
+/* input */
+/* output */
+.search {
+  display: flex;
+  justify-content: space-between;
+}
+.search button {
+  width: 45%;
+}
+table{
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+table th {
+  text-transform: uppercase;
+  padding: 10px;
+}
+table td {
+  padding: 5px;
+}
+table button{
+  height: 25px;
+  margin: 0px;
+}
+/* output */
